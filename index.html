@@ -1,1 +1,58 @@
-<p> hi</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style123.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Start Screen -->
+    <div id="start-screen" class="card">
+        <h1>Quiz App</h1>
+
+        <p>Test your knowledge with this fun quiz!</p>
+
+        <ul>
+            <li>10 Questions</li>
+            <li>1 Point for each correct answer</li>
+            <li>Choose only one option</li>
+        </ul>
+
+        <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quiz-screen" class="card hide">
+
+        <h2 id="question">Question goes here</h2>
+
+        <div id="answer-buttons" class="btn-container">
+        </div>
+
+        <button id="next-btn" class="hide">Next</button>
+
+    </div>
+
+    <!-- Result Screen -->
+    <div id="result-screen" class="card hide">
+
+        <h1>Quiz Finished 🎉</h1>
+
+        <h2>Your Score</h2>
+
+        <h1 id="score">0 / 10</h1>
+
+        <button id="restart-btn">Restart Quiz</button>
+
+    </div>
+
+</div>
+
+<script src="script123.js"></script>
+
+</body>
+</html>
